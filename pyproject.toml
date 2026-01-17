@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["aeternus", "backend"]
+
+[project]
+name = "brainwave"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.13.3",
+    "anthropic>=0.76.0",
+    "anyio>=4.12.1",
+    "authlib>=1.6.6",
+    "bubus>=1.5.6",
+    "cdp_use",
+    "click>=8.3.1",
+    "cloudpickle>=3.1.2",
+    "fastapi>=0.128.0",
+    "google-api-python-client>=2.188.0",
+    "google-auth>=2.47.0",
+    "google-auth-oauthlib>=1.2.2",
+    "google-genai>=1.59.0",
+    "groq>=1.0.0",
+    "httpx>=0.28.1",
+    "inquirerpy>=0.3.4",
+    "langchain-openai>=1.1.7",
+    "markdownify>=1.2.2",
+    "mcp>=1.25.0",
+    "ollama>=0.6.1",
+    "openai>=2.15.0",
+    "pillow>=12.1.0",
+    "portalocker>=3.2.0",
+    "posthog>=7.5.1",
+    "psutil>=7.2.1",
+    "pydantic>=2.12.5",
+    "pyotp>=2.9.0",
+    "pypdf>=6.6.0",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.1",
+    "reportlab>=4.4.9",
+    "requests>=2.32.5",
+    "rich>=14.2.0",
+    "screeninfo>=0.8.1",
+    "typing-extensions>=4.15.0",
+    "uuid6>=2025.0.1",
+    "uvicorn>=0.40.0",
+    "websockets>=15.0.1",
+    "playwright>=1.49.1",
+]
